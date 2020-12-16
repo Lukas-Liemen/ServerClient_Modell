@@ -1,8 +1,9 @@
-Client:
-	java -jar WA_Client.jar name IPConfigServer PortConfigServer nameServerToConnect
+write to console:
+	Client:
+		java -jar WA_Client.jar name IPConfigServer PortConfigServer nameServerToConnect
 
-Server:
-	java -jar WA_Server.jar IPConfigServer PortConfigServer OwnName OwnIP OwnPort AdminClient(optional if named in key-value list)
+	Server:
+		java -jar WA_Server.jar IPConfigServer PortConfigServer OwnName OwnIP OwnPort AdminClient(optional if named in key-value list)
 
-Config:
-	java -jar WA_Config.jar keyValueList.txt (optional, standart name: kvList.txt) 
+	Config:
+		java -jar WA_Config.jar keyValueList.txt (optional, standart name: kvList.txt) 
